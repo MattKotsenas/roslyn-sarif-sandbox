@@ -6,7 +6,7 @@
       "results": [
       ],
       "properties": {
-        "analyzerExecutionTime": "2.540"
+        "analyzerExecutionTime": "0.069"
       },
       "tool": {
         "driver": {
@@ -250,8 +250,8 @@
                 "suppressionKinds": [
                   "external"
                 ],
-                "executionTimeInSeconds": "0.029",
-                "executionTimeInPercentage": "1",
+                "executionTimeInSeconds": "<0.001",
+                "executionTimeInPercentage": "<1",
                 "tags": [
                   "PortedFromFxCop",
                   "Telemetry",
@@ -273,8 +273,12 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1016",
               "properties": {
                 "category": "Design",
-                "executionTimeInSeconds": "0.029",
-                "executionTimeInPercentage": "1",
+                "isEverSuppressed": "true",
+                "suppressionKinds": [
+                  "external"
+                ],
+                "executionTimeInSeconds": "<0.001",
+                "executionTimeInPercentage": "<1",
                 "tags": [
                   "PortedFromFxCop",
                   "Telemetry",
@@ -321,7 +325,7 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1018",
               "properties": {
                 "category": "Design",
-                "executionTimeInSeconds": "0.005",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1",
                 "tags": [
                   "PortedFromFxCop",
@@ -664,7 +668,7 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1041",
               "properties": {
                 "category": "Design",
-                "executionTimeInSeconds": "0.014",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1",
                 "tags": [
                   "PortedFromFxCop",
@@ -794,7 +798,7 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1050",
               "properties": {
                 "category": "Design",
-                "executionTimeInSeconds": "0.002",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1",
                 "tags": [
                   "PortedFromFxCop",
@@ -1002,7 +1006,7 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1061",
               "properties": {
                 "category": "Design",
-                "executionTimeInSeconds": "0.007",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1",
                 "tags": [
                   "PortedFromFxCop",
@@ -1134,7 +1138,7 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1066",
               "properties": {
                 "category": "Design",
-                "executionTimeInSeconds": "0.007",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1",
                 "tags": [
                   "Telemetry",
@@ -1156,7 +1160,7 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1067",
               "properties": {
                 "category": "Design",
-                "executionTimeInSeconds": "0.007",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1",
                 "tags": [
                   "Telemetry",
@@ -1175,8 +1179,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1068",
               "properties": {
                 "category": "Design",
-                "executionTimeInSeconds": "0.018",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "<0.001",
+                "executionTimeInPercentage": "1",
                 "tags": [
                   "Telemetry",
                   "EnabledRuleInAggressiveMode"
@@ -1194,7 +1198,7 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1069",
               "properties": {
                 "category": "Design",
-                "executionTimeInSeconds": "0.012",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1",
                 "tags": [
                   "Telemetry",
@@ -1479,7 +1483,7 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1401",
               "properties": {
                 "category": "Interoperability",
-                "executionTimeInSeconds": "0.010",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1",
                 "tags": [
                   "PortedFromFxCop",
@@ -1499,8 +1503,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416",
               "properties": {
                 "category": "Interoperability",
-                "executionTimeInSeconds": "0.125",
-                "executionTimeInPercentage": "4",
+                "executionTimeInSeconds": "<0.001",
+                "executionTimeInPercentage": "<1",
                 "tags": [
                   "Telemetry",
                   "EnabledRuleInAggressiveMode"
@@ -1518,7 +1522,7 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1417",
               "properties": {
                 "category": "Interoperability",
-                "executionTimeInSeconds": "0.005",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1",
                 "tags": [
                   "Telemetry",
@@ -1537,7 +1541,7 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1418",
               "properties": {
                 "category": "Interoperability",
-                "executionTimeInSeconds": "0.021",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1",
                 "tags": [
                   "Telemetry",
@@ -1559,7 +1563,7 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1419",
               "properties": {
                 "category": "Interoperability",
-                "executionTimeInSeconds": "0.010",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1",
                 "tags": [
                   "Telemetry",
@@ -1578,8 +1582,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1420",
               "properties": {
                 "category": "Interoperability",
-                "executionTimeInSeconds": "0.064",
-                "executionTimeInPercentage": "2",
+                "executionTimeInSeconds": "<0.001",
+                "executionTimeInPercentage": "1",
                 "tags": [
                   "Telemetry",
                   "EnabledRuleInAggressiveMode"
@@ -1600,8 +1604,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1421",
               "properties": {
                 "category": "Interoperability",
-                "executionTimeInSeconds": "0.064",
-                "executionTimeInPercentage": "2",
+                "executionTimeInSeconds": "<0.001",
+                "executionTimeInPercentage": "1",
                 "tags": [
                   "Telemetry",
                   "EnabledRuleInAggressiveMode"
@@ -1619,8 +1623,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1422",
               "properties": {
                 "category": "Interoperability",
-                "executionTimeInSeconds": "0.125",
-                "executionTimeInPercentage": "4",
+                "executionTimeInSeconds": "<0.001",
+                "executionTimeInPercentage": "<1",
                 "tags": [
                   "Telemetry",
                   "EnabledRuleInAggressiveMode"
@@ -1749,7 +1753,7 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1507",
               "properties": {
                 "category": "Maintainability",
-                "executionTimeInSeconds": "0.017",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1",
                 "tags": [
                   "Telemetry",
@@ -2173,7 +2177,7 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1727",
               "properties": {
                 "category": "Naming",
-                "executionTimeInSeconds": "0.003",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1",
                 "tags": [
                   "Telemetry",
@@ -2249,7 +2253,7 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1806",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "0.007",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1",
                 "tags": [
                   "PortedFromFxCop",
@@ -2408,8 +2412,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1816",
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "0.015",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "<0.001",
+                "executionTimeInPercentage": "1",
                 "tags": [
                   "PortedFromFxCop",
                   "Telemetry",
@@ -2485,7 +2489,7 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1821",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "0.005",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1",
                 "tags": [
                   "PortedFromFxCop",
@@ -2508,8 +2512,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1822",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "0.118",
-                "executionTimeInPercentage": "4",
+                "executionTimeInSeconds": "0.020",
+                "executionTimeInPercentage": "29",
                 "tags": [
                   "PortedFromFxCop",
                   "Telemetry",
@@ -2558,8 +2562,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1824",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "0.884",
-                "executionTimeInPercentage": "34",
+                "executionTimeInSeconds": "0.002",
+                "executionTimeInPercentage": "2",
                 "tags": [
                   "PortedFromFxCop",
                   "Telemetry",
@@ -2579,8 +2583,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1825",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "0.041",
-                "executionTimeInPercentage": "1",
+                "executionTimeInSeconds": "<0.001",
+                "executionTimeInPercentage": "<1",
                 "tags": [
                   "Telemetry",
                   "EnabledRuleInAggressiveMode"
@@ -2601,8 +2605,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1826",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "0.012",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "<0.001",
+                "executionTimeInPercentage": "1",
                 "tags": [
                   "Telemetry",
                   "EnabledRuleInAggressiveMode"
@@ -2623,8 +2627,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1827",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "0.017",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "<0.001",
+                "executionTimeInPercentage": "1",
                 "tags": [
                   "Telemetry",
                   "EnabledRuleInAggressiveMode"
@@ -2645,8 +2649,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1828",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "0.017",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "<0.001",
+                "executionTimeInPercentage": "1",
                 "tags": [
                   "Telemetry",
                   "EnabledRuleInAggressiveMode"
@@ -2667,8 +2671,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1829",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "0.017",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "<0.001",
+                "executionTimeInPercentage": "1",
                 "tags": [
                   "Telemetry",
                   "EnabledRuleInAggressiveMode"
@@ -2689,8 +2693,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1830",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "0.012",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0.002",
+                "executionTimeInPercentage": "3",
                 "tags": [
                   "Telemetry",
                   "EnabledRuleInAggressiveMode"
@@ -2708,7 +2712,7 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1831",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "0.004",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1",
                 "tags": [
                   "Telemetry",
@@ -2730,7 +2734,7 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1832",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "0.004",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1",
                 "tags": [
                   "Telemetry",
@@ -2752,7 +2756,7 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1833",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "0.004",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1",
                 "tags": [
                   "Telemetry",
@@ -2774,8 +2778,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1834",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "0.006",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "<0.001",
+                "executionTimeInPercentage": "1",
                 "tags": [
                   "Telemetry",
                   "EnabledRuleInAggressiveMode"
@@ -2796,8 +2800,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1835",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "0.008",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "<0.001",
+                "executionTimeInPercentage": "1",
                 "tags": [
                   "Telemetry",
                   "EnabledRuleInAggressiveMode"
@@ -2818,8 +2822,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1836",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "0.017",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "<0.001",
+                "executionTimeInPercentage": "1",
                 "tags": [
                   "Telemetry",
                   "EnabledRuleInAggressiveMode"
@@ -2840,8 +2844,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1837",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "0.007",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0.001",
+                "executionTimeInPercentage": "1",
                 "tags": [
                   "Telemetry",
                   "EnabledRuleInAggressiveMode"
@@ -2888,8 +2892,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1839",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "0.007",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0.001",
+                "executionTimeInPercentage": "1",
                 "tags": [
                   "Telemetry",
                   "EnabledRuleInAggressiveMode"
@@ -2910,8 +2914,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1840",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "0.007",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0.001",
+                "executionTimeInPercentage": "1",
                 "tags": [
                   "Telemetry",
                   "EnabledRuleInAggressiveMode"
@@ -2932,7 +2936,7 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1841",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "0.020",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1",
                 "tags": [
                   "Telemetry",
@@ -2954,7 +2958,7 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1842",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "0.004",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1",
                 "tags": [
                   "Telemetry",
@@ -2976,7 +2980,7 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1843",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "0.004",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1",
                 "tags": [
                   "Telemetry",
@@ -2998,7 +3002,7 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1844",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "0.010",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1",
                 "tags": [
                   "Telemetry",
@@ -3020,8 +3024,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1845",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "0.087",
-                "executionTimeInPercentage": "3",
+                "executionTimeInSeconds": "<0.001",
+                "executionTimeInPercentage": "<1",
                 "tags": [
                   "Telemetry",
                   "EnabledRuleInAggressiveMode"
@@ -3042,7 +3046,7 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1846",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "0.010",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1",
                 "tags": [
                   "Telemetry",
@@ -3064,7 +3068,7 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1847",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "0.004",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1",
                 "tags": [
                   "Telemetry",
@@ -3086,7 +3090,7 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1848",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "0.003",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1",
                 "tags": [
                   "Telemetry",
@@ -3134,8 +3138,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1850",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "0.056",
-                "executionTimeInPercentage": "2",
+                "executionTimeInSeconds": "<0.001",
+                "executionTimeInPercentage": "<1",
                 "tags": [
                   "Telemetry",
                   "EnabledRuleInAggressiveMode"
@@ -3157,7 +3161,7 @@
                 "suppressionKinds": [
                   "external"
                 ],
-                "executionTimeInSeconds": "0.004",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1",
                 "tags": [
                   "Dataflow",
@@ -3207,8 +3211,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1853",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "0.063",
-                "executionTimeInPercentage": "2",
+                "executionTimeInSeconds": "<0.001",
+                "executionTimeInPercentage": "1",
                 "tags": [
                   "Telemetry",
                   "EnabledRuleInAggressiveMode"
@@ -3229,7 +3233,7 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1854",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "0.006",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1",
                 "tags": [
                   "Telemetry",
@@ -3251,8 +3255,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1855",
               "properties": {
                 "category": "Performance",
-                "executionTimeInSeconds": "0.418",
-                "executionTimeInPercentage": "16",
+                "executionTimeInSeconds": "0.010",
+                "executionTimeInPercentage": "13",
                 "tags": [
                   "Telemetry",
                   "EnabledRuleInAggressiveMode"
@@ -3377,7 +3381,7 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2009",
               "properties": {
                 "category": "Reliability",
-                "executionTimeInSeconds": "0.005",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1",
                 "tags": [
                   "Telemetry",
@@ -3396,7 +3400,7 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2011",
               "properties": {
                 "category": "Reliability",
-                "executionTimeInSeconds": "0.002",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1",
                 "tags": [
                   "Telemetry",
@@ -3418,7 +3422,7 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2012",
               "properties": {
                 "category": "Reliability",
-                "executionTimeInSeconds": "0.007",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1",
                 "tags": [
                   "Telemetry",
@@ -3437,7 +3441,7 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2013",
               "properties": {
                 "category": "Reliability",
-                "executionTimeInSeconds": "0.006",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1",
                 "tags": [
                   "Telemetry",
@@ -3456,7 +3460,7 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2014",
               "properties": {
                 "category": "Reliability",
-                "executionTimeInSeconds": "0.002",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1",
                 "tags": [
                   "Telemetry",
@@ -3475,7 +3479,7 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2015",
               "properties": {
                 "category": "Reliability",
-                "executionTimeInSeconds": "0.006",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1",
                 "tags": [
                   "Telemetry",
@@ -3497,7 +3501,7 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2016",
               "properties": {
                 "category": "Reliability",
-                "executionTimeInSeconds": "0.018",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1",
                 "tags": [
                   "Telemetry",
@@ -3516,7 +3520,7 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2017",
               "properties": {
                 "category": "Reliability",
-                "executionTimeInSeconds": "0.003",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1",
                 "tags": [
                   "Telemetry",
@@ -3535,7 +3539,7 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2018",
               "properties": {
                 "category": "Reliability",
-                "executionTimeInSeconds": "0.007",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1",
                 "tags": [
                   "Telemetry",
@@ -3557,7 +3561,7 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2019",
               "properties": {
                 "category": "Reliability",
-                "executionTimeInSeconds": "0.003",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1",
                 "tags": [
                   "Telemetry",
@@ -3579,7 +3583,7 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2020",
               "properties": {
                 "category": "Reliability",
-                "executionTimeInSeconds": "0.002",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1",
                 "tags": [
                   "Telemetry",
@@ -3629,7 +3633,7 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2101",
               "properties": {
                 "category": "Globalization",
-                "executionTimeInSeconds": "0.010",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1",
                 "tags": [
                   "PortedFromFxCop",
@@ -3726,7 +3730,7 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2200",
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "0.001",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1",
                 "tags": [
                   "PortedFromFxCop",
@@ -3803,7 +3807,7 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2208",
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "0.003",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1",
                 "tags": [
                   "PortedFromFxCop",
@@ -3826,7 +3830,7 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2211",
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "0.001",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1",
                 "tags": [
                   "PortedFromFxCop",
@@ -3985,7 +3989,7 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2219",
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "0.008",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1",
                 "tags": [
                   "PortedFromFxCop",
@@ -4116,7 +4120,7 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2231",
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "0.003",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1",
                 "tags": [
                   "PortedFromFxCop",
@@ -4220,8 +4224,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2241",
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "0.079",
-                "executionTimeInPercentage": "3",
+                "executionTimeInSeconds": "<0.001",
+                "executionTimeInPercentage": "<1",
                 "tags": [
                   "PortedFromFxCop",
                   "Telemetry",
@@ -4353,7 +4357,7 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2247",
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "0.005",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1",
                 "tags": [
                   "Telemetry",
@@ -4375,7 +4379,7 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2248",
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "0.004",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1",
                 "tags": [
                   "Telemetry",
@@ -4397,7 +4401,7 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2249",
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "0.019",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1",
                 "tags": [
                   "Telemetry",
@@ -4419,7 +4423,7 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2250",
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "0.005",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1",
                 "tags": [
                   "Telemetry",
@@ -4467,8 +4471,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2252",
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "0.099",
-                "executionTimeInPercentage": "3",
+                "executionTimeInSeconds": "0.001",
+                "executionTimeInPercentage": "1",
                 "tags": [
                   "Telemetry",
                   "EnabledRuleInAggressiveMode"
@@ -4489,7 +4493,7 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2253",
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "0.003",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1",
                 "tags": [
                   "Telemetry",
@@ -4511,7 +4515,7 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2254",
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "0.003",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1",
                 "tags": [
                   "Telemetry",
@@ -4530,7 +4534,7 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2255",
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "0.003",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1",
                 "tags": [
                   "Telemetry",
@@ -4549,8 +4553,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2256",
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "0.008",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0.014",
+                "executionTimeInPercentage": "20",
                 "tags": [
                   "Telemetry",
                   "EnabledRuleInAggressiveMode"
@@ -4568,8 +4572,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2257",
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "0.008",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0.014",
+                "executionTimeInPercentage": "20",
                 "tags": [
                   "Telemetry",
                   "EnabledRuleInAggressiveMode"
@@ -4587,8 +4591,8 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2258",
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "0.008",
-                "executionTimeInPercentage": "<1",
+                "executionTimeInSeconds": "0.014",
+                "executionTimeInPercentage": "20",
                 "tags": [
                   "Telemetry",
                   "EnabledRuleInAggressiveMode"
@@ -4606,7 +4610,7 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2259",
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "0.003",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1",
                 "tags": [
                   "Telemetry",
@@ -4625,7 +4629,7 @@
               "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2260",
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "0.008",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1",
                 "tags": [
                   "Telemetry",
@@ -6964,8 +6968,8 @@
               },
               "properties": {
                 "category": "GeneratedRegex",
-                "executionTimeInSeconds": "0.011",
-                "executionTimeInPercentage": "<1"
+                "executionTimeInSeconds": "<0.001",
+                "executionTimeInPercentage": "1"
               }
             },
             {
@@ -6981,8 +6985,8 @@
               },
               "properties": {
                 "category": "Interoperability",
-                "executionTimeInSeconds": "0.015",
-                "executionTimeInPercentage": "<1"
+                "executionTimeInSeconds": "0.001",
+                "executionTimeInPercentage": "1"
               }
             },
             {
@@ -6998,7 +7002,7 @@
               },
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "0.009",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1"
               }
             },
@@ -7015,7 +7019,7 @@
               },
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "0.009",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1"
               }
             },
@@ -7032,7 +7036,7 @@
               },
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "0.009",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1"
               }
             },
@@ -7049,7 +7053,7 @@
               },
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "0.002",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1"
               }
             },
@@ -7066,7 +7070,7 @@
               },
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "0.009",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1"
               }
             },
@@ -7083,13 +7087,38 @@
               },
               "properties": {
                 "category": "Usage",
-                "executionTimeInSeconds": "0.009",
+                "executionTimeInSeconds": "<0.001",
                 "executionTimeInPercentage": "<1"
               }
             }
           ]
         }
       },
+      "invocations": [
+        {
+          "executionSuccessful": true,
+          "ruleConfigurationOverrides": [
+            {
+              "descriptor": {
+                "id": "CA1016",
+                "index": 9
+              },
+              "configuration": {
+                "level": "error"
+              }
+            },
+            {
+              "descriptor": {
+                "id": "CA1016",
+                "index": 9
+              },
+              "configuration": {
+                "level": "none"
+              }
+            }
+          ]
+        }
+      ],
       "columnKind": "utf16CodeUnits"
     }
   ]

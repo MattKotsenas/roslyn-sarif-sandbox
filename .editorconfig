@@ -1,0 +1,9 @@
+# This file is the top-most EditorConfig file
+root = true
+
+[*.cs]
+dotnet_diagnostic.CA1016.severity = error
+
+[Sandbox.cs]
+dotnet_diagnostic.CA1016.severity = none
+
