@@ -1,9 +1,13 @@
 # This file is the top-most EditorConfig file
 root = true
 
+# This section tests setting the same rule with different severity levels
 [*.cs]
 dotnet_diagnostic.CA1016.severity = error
 
 [Sandbox.cs]
 dotnet_diagnostic.CA1016.severity = none
 
+# This section tests `enabled: false` when disabling a rule
+[*.cs]
+dotnet_diagnostic.CA1200.severity = none
